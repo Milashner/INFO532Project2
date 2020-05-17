@@ -5,10 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "chrome",
+            "name": "Remote Chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
+            "type": "chrome",
+            "url": "https://danielyawjr.github.io/INFO532Project2/",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Local Chrome",
+            "request": "launch",
+            "type": "chrome",
             "file": "${file}"
         }
+
     ]
 }
