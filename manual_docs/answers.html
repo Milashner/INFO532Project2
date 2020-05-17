@@ -1,0 +1,194 @@
+
+<title>Netscape Handbook: Answers to Tough Questions</title>
+
+<b>
+<font size="+3">A</font><font size="+2">nswers to tough questions</font>
+</b></a>
+
+<ol>
+<a href="../online-manual.html">Netscape Handbook: Table of Contents</a>
+<li><a href="answers.html#RTFToC1">Preferences</a>
+<li><a href="answers.html#RTFToC4">Mail and Proxies</a>
+<li><a href="answers.html#RTFToC5">Helper applications</a>
+</ol>
+
+<p>
+<hr align="right" width="85%">
+<a name="RTFToC1"></a></br>
+<font size="+3">P</font><font size="+1">references</font>
+
+<p>
+
+<b>Can you summarize all the preference options?</b><p>
+	When you select Preferences from the Option menu, a dialog box
+appears with
+controls for many operational facets of Netscape. A pop-menu in
+the
+dialog box lets you select one of the following sets of preference
+controls:<p>
+
+<ul>
+<li><b>Styles</b>
+<br>
+<b>Window</b> options let you designate a home page
+and specify
+the style of toolbar buttons and content area fonts. <b>Link</b>
+options let
+you choose the underlining, color, and color longevity of highlighted
+text
+links.
+
+<li><b>Network and Images</b> (<b>Images, Networks, and Mail </b>on the
+Macintosh)
+<br>
+<b>Images</b> options let you determine a priority
+for loading
+images and, depending on the platform, the manner that colors are
+approximated.
+<b>Connections</b> options, depending on the platform, let you specify
+the size
+of a memory cache, the size of a network buffer, and the maximum number
+of
+network connections.
+
+<li><b>Directories, Applications, and News</b>
+<br>
+<b>Directories</b> options let you designate the
+Temporary
+directory used to hold files that require helper applications. Before a
+helper
+application launches a file, Netscape saves the file to disk in the
+Temporary
+directory. <b>Applications</b> options let you specify the location of
+these
+supporting applications: Telnet, HTML Source Viewer, and TN3270.
+<b>News</b>
+options let you specify the host name for the news server (that
+supplies UseNet
+newsgroups), a news RC file, and the manner that news descriptions are
+displayed
+
+<li><b>Mail and Proxies</b> (<b>Proxies</b> on the Macintosh)
+<br>
+<b>Mail</b> options require that you specify a mail server,
+your user
+name, and your e-mail address in order to have a viable incoming mail
+address
+(allowing others to respond to Netscape mail you send). <b>Proxies</b>
+options let
+you designate proxies and ports for FTP, HTTP, Gopher, News, and WAIS
+protocols, and depending on the platform, a SOCKS host.
+
+<li><b>Helper Applications</b>
+<br>
+<b>Helper Applications</b> options let you map Mime types
+and extensions
+of external applications, and depending on the platform, actions to
+take.
+</ul>
+
+<p>
+<hr align="right" width="85%">
+<a name="RTFToC4">
+<font size="+3">M</font><font size="+1">ail and </font>
+<font size="+3">P</font><font size="+1">roxies</font>
+</a>
+<p>
+
+<b>What does each part of an Internet address such as
+"yourname@aserver.bserver.org" mean?</b><p>
+	The first part, <b>yourName</b>, identifies a user. The <b>@</b>
+symbol
+(pronounced "at") separates the user name from the location of the mail
+server.
+The last part, <b>aserver.bserver.org</b>, identifies the location of
+the mail
+server. Addresses use lowercase letters without any spaces.
+<p>
+The name of a location contains at least a string and, typically, a
+three-letter suffix, set apart by a dot (the period symbol is
+pronounced
+"dot"). The name of a location might require several subparts to
+identify the
+server (a host name and zero or more subdomains), each separated by
+dots . The
+three-letter suffix in the location name helps identify the kind of
+organization operating the server. (Some locations use a two-letter
+geographical suffix.) Here are the common suffixes and organizational
+affiliation:
+<blockquote>
+	<b>.com</b> (commercial) <br>
+	<b>.edu</b> (educational) <br>
+	<b>.gov</b> (government) <br>
+	<b>.mil</b> (military) <br>
+	<b>.net</b> (networking) <br>
+	<b>.org</b> (noncommercial)</blockquote>
+
+<p>
+<hr align="right" width="85%">
+<a name="RTFToC5">
+<font size="+3">H</font><font size="+1">elper applications</font>
+</a>
+<p>
+
+
+<b>What do I need to know about helper applications and MIME
+types?</b><p>
+	To examine or modify the mapping of file formats (MIME types) to
+helper
+applications:<p>
+
+<ol>
+<li>	Choose <b>Preferences</b> from the <b>Options</b> menu.
+<li>	Choose the <b>Helper Applications</b> submenu item from
+the pop-up menu
+in the <b>Preferences</b> dialog box.</ol><p>
+HTTP (HyperText Transport Protocol) servers use HTML formatting. Netscape
+software has the built-in capability to read HTML formatted pages (as
+well as
+some common graphic file formats such as <b>gif</b> and <b>jpeg</b>).
+Other
+protocols use formats that Netscape can interpret only with the help of
+external
+helper applications. In order for Netscape to accommodate the file
+formats
+requiring helper applications, Netscape keeps a mapping of file formats
+to helper
+applications.
+<p>
+MIME (Multipurpose Internet Mail Extensions) is a standardized method
+for
+organizing divergent file formats. The method organizes file formats
+according
+to the file's MIME type. When Netscape software retrieves a file from a
+server,
+the server provides the MIME type of the file. Netscape uses the MIME
+type to
+establish whether the file format can be read by the software's
+built-in
+capabilities or, if not, whether a suitable helper application is
+available to
+read the file.
+<p>
+For servers that do not provide a MIME type with a file, Netscape
+interprets the
+file's extension (a suffix appended to a file name). For example, the
+<b>.html</b> extension in the file name <b>Mosaic.html</b>
+suggests a file
+in the HTML format. Likewise, a <b>.zip</b> extension suggests a file
+compressed with the Zipper application, an <b>.rtf</b> extension
+suggests a
+file in the Rich Text Format, and so on. You can view and configure the
+mapping
+of all MIME types to helper applications by choosing the <b>Helper
+Applications</b> submenu item within the <b>Preference</b> dialog
+box.
+
+<p>
+
+<a href="../online-manual.html">Netscape Handbook: Table of Contents</a>
+
+<hr size="4">
+
+<a href="mailto:info@mcom.com"><i>info@mcom.com</i></a><br>
+Copyright &copy; 1994 Mosaic Communications Corporation.
