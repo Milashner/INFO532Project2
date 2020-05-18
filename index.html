@@ -16,6 +16,24 @@ href="welcome_docs/example-link.html">here's an example</a>).  These are "hyperl
 other pages. Also, images with blue or purple borders are hyperlinks and can
 be single-clicked as well.  You can always return to this page by choosing
 <i>Welcome</i> from your <i>Directory</i> menu.<P>
+  
+<!--Matt Lashner popup -->
+Websites may display information and ask you to interact using "pop-ups". These pop-ups 
+will display at the top of the page, and you must click to close them, or type in the box to 
+interact with them. Curious about pop-ups? Click <span onclick=popup() style=color:blue;>here</span> to explore!
+
+<script>
+    function popup(){
+        var name = prompt('This is a popup! Please type your name into the box below, and click "OK"');
+        if (name==null || name=="") {
+            alert("You didn't type anything! Press 'OK' to try again.");
+            popup();
+        }
+        else {
+            alert("Congratulations, " + name + "! You just used a pop-up box! Click 'OK' to return to the page.");
+        }
+    }
+</script>
 
 <HR ALIGN="right" WIDTH=85%>
 
